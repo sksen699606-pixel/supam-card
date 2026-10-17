@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<title>Supam Sen | Personal Contact Card</title>
+<style>
+:root{color-scheme:dark;--bg:#090909;--panel:#151515;--red:#ff3038;--muted:#bdbdbd;--line:#303030}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at top right,#3a090d 0,#090909 42%);color:#fff;font-family:Arial,Helvetica,sans-serif;min-height:100vh;padding:24px 14px}
+main{max-width:620px;margin:0 auto}
+.card{border:1px solid #3b2527;border-radius:24px;background:linear-gradient(145deg,#171717,#0d0d0d);overflow:hidden;box-shadow:0 20px 55px #0008}
+.top{padding:28px 24px 22px;border-bottom:1px solid var(--line);position:relative}
+.top:before{content:"";position:absolute;left:0;top:0;width:7px;height:100%;background:var(--red)}
+.eyebrow{font-size:11px;letter-spacing:3px;color:#ff7378;font-weight:700}
+h1{font-size:clamp(30px,8vw,44px);margin:10px 0 4px;letter-spacing:-1px}
+.subtitle{color:var(--muted);font-size:14px}
+.pill{display:inline-block;margin-top:14px;border:1px solid #7b252a;color:#ff8b90;border-radius:99px;padding:7px 11px;font-size:11px;letter-spacing:1px}
+.content{padding:20px 22px 24px}
+.row{display:flex;gap:13px;align-items:flex-start;padding:13px 0;border-bottom:1px solid #282828}
+.icon{width:36px;height:36px;flex:0 0 36px;display:grid;place-items:center;background:#281114;border-radius:11px;font-size:17px}
+.label{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:#aaa;margin:1px 0 5px}
+.value{font-size:15px;line-height:1.5;overflow-wrap:anywhere}
+.value a{color:#fff;text-decoration:none}
+.value a:hover{color:#ff7378}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.btn{display:block;text-align:center;text-decoration:none;padding:13px 10px;border-radius:12px;font-weight:700;font-size:13px;border:1px solid #4a4a4a;color:#fff;background:#202020}
+.btn.primary{background:var(--red);border-color:var(--red);color:#fff}
+.note{font-size:11px;color:#999;text-align:center;margin:18px 8px 0;line-height:1.5}
+footer{text-align:center;color:#777;font-size:11px;padding:16px}
+@media(min-width:520px){.content{padding:24px 28px 28px}.top{padding:32px 30px 24px}}
+</style>
+</head>
+<body>
+<main>
+  <section class="card">
+    <header class="top">
+      <div class="eyebrow">PERSONAL DIGITAL CARD</div>
+      <h1>SUPAM SEN</h1>
+      <div class="subtitle">Plumber · Electrician · Maintenance</div>
+      <div class="pill">BLACK × RED · CONTACT PROFILE</div>
+    </header>
+    <div class="content">
+      <div class="row"><div class="icon">📞</div><div><div class="label">Mobile</div><div class="value"><a href="tel:+919774684304">+91 9774684304</a></div></div></div>
+      <div class="row"><div class="icon">🟢</div><div><div class="label">WhatsApp</div><div class="value"><a href="https://wa.me/919774684304">+91 9774684304</a><br><a href="https://wa.me/916009088376">+91 6009088376</a></div></div></div>
+      <div class="row"><div class="icon">📧</div><div><div class="label">Email</div><div class="value"><a href="mailto:skseng699606@gmail.com">skseng699606@gmail.com</a></div></div></div>
+      <div class="row"><div class="icon">📸</div><div><div class="label">Instagram</div><div class="value"><a href="https://www.instagram.com/_sk_chowdhury_/" target="_blank" rel="noopener">@_sk_chowdhury_</a></div></div></div>
+      <div class="row"><div class="icon">🔵</div><div><div class="label">Facebook</div><div class="value"><a href="https://www.facebook.com/Mr.supam.111" target="_blank" rel="noopener">Open Facebook Profile</a></div></div></div>
+      <div class="row"><div class="icon">📍</div><div><div class="label">Location</div><div class="value">Bengaluru, Karnataka<br>Agartala, Tripura</div></div></div>
+      <div class="actions">
+        <a class="btn primary" href="supam-sen.vcf" download>＋ Save Contact</a>
+        <a class="btn" href="https://wa.me/919774684304" target="_blank" rel="noopener">Message on WhatsApp</a>
+        <a class="btn" href="https://www.instagram.com/_sk_chowdhury_/" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn" href="https://www.facebook.com/Mr.supam.111" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <p class="note">For privacy, this public card shows only city and state, not a full home address.</p>
+    </div>
+  </section>
+  <footer>SUPAM SEN · DIGITAL CONTACT CARD</footer>
+</main>
+</body>
+</html>
